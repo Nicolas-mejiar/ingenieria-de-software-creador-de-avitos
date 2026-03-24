@@ -40,6 +40,6 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Nombre                   | Nicolas Alexander Mejia Rojas            |
 | Rol                      | Desarrollador                            |
 | Categoría profesional    | Estudiante de Ingeniería de sistemas     |
-| Responsabilidades        | Desarrollo de Simulador de ca            |
+| Responsabilidades        | Desarrollo de Simulador de caneca            |
 | Información de contacto  | nicolasa-mejiar@unilibre.edu.co          |
 | Aprobación               | Si                                       |
