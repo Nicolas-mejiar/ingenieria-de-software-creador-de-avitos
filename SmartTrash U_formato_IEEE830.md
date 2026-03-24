@@ -25,3 +25,12 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Responsabilidades        | Desarrollo de página web                 |
 | Información de contacto  | santiago-penar@unilibre.edu.co           |
 | Aprobación               | Pendiente                                |
+
+| Campo                    | Detalle                                   |
+|--------------------------|-------------------------------------------|
+| Nombre                   | Eileen Espitia Castellanos                |
+| Rol                      | Planeador / Analista                      |
+| Categoría profesional    | Estudiante de Ingeniería de sistemas      |
+| Responsabilidades        | Planificar el proyecto, analizar requerimientos, proponer soluciones claras y estructuradas |
+| Información de contacto  | eileeng-espitia@unilibre.edu.co           |
+| Aprobación               | Pendiente                                 |
