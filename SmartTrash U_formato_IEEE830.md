@@ -106,7 +106,6 @@ Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomen
 | Habilidades   | Conocimientos basicos del funcionamiento del sistema                        |
 | Actividades   | INteraccion conla pagina web, verificacion del estado de los contenedores, apoyo al funcionamiento del sistema        |
 
-
 ## 2.4	Restricciones
 El sistema será desarrollado únicamente como un prototipo virtual, por lo tanto, no se implementará de forma física
 - La validación del sistema se realizará en entornos simulados y no en condiciones reales
@@ -115,7 +114,6 @@ El sistema será desarrollado únicamente como un prototipo virtual, por lo tant
 - Se deben utilizar tecnologías, plataformas o herramientas específicas disponibles
 - El sistema debe adaptarse a las capacidades del entorno de desarrollo seleccionado
 - Dependencia de recursos computacionales disponibles para la simulación
-
 ## 2.5	Suposiciones y dependencias
 Suposiciones: 
 - Se asume que los usuarios utilizarán correctamente la aplicación web.
@@ -127,5 +125,10 @@ Dependencias:
 - El funcionamiento del sistema está sujeto a la compatibilidad con navegadores web.
 - La correcta ejecución del sistema depende de la integración adecuada de sus componentes software.
 - El sistema depende de la correcta simulación del comportamiento de los sensores en el entorno virtual.
+## 2.6	Evolución previsible del sistema
+Para las futuras versiones y actualizaciones del proyecto SmartTrash U, se planea tener en cuenta la opinión de los usuarios para hacer las mejorar pertinentes al sistema.
+Principalmente, una evolución que se contempla es tener la caneca física, ya que en un inicio es todo simulado.
+A partir de esto, hacer mejoras en el funcionamiento, como desarrollar una aplicación móvil para facilitar el acceso de usuarios, mejora en la clasificación de residuos por medio de inteligencia artificial entrenada y sensores de mayor precisión, de igual forma mejorar el sistema de puntuación al desechar residuos. 
+
 
 
