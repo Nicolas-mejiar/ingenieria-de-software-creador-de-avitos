@@ -101,7 +101,7 @@ Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomen
 
 | Campo         | Descripción                                                                 |
 |--------------|------------------------------------------------------------------------------|
-| Tipo de usuario |	Personal de servicios de aseo                       |
+| Tipo de usuario |	Personal de servicios de aseo                                          |
 | Formación     | No requiere formacion especifica                                          |
 | Habilidades   | Conocimientos basicos del funcionamiento del sistema                        |
 | Actividades   | INteraccion conla pagina web, verificacion del estado de los contenedores, apoyo al funcionamiento del sistema        |
