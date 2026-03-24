@@ -109,12 +109,12 @@ Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomen
 
 ## 2.4	Restricciones
 El sistema será desarrollado únicamente como un prototipo virtual, por lo tanto, no se implementará de forma física
-•   La validación del sistema se realizará en entornos simulados y no en condiciones reales
-•   El desarrollo está sujeto a limitaciones de tiempo establecidas por el calendario académico
-•   Existe un presupuesto limitado para herramientas y recursos tecnológicos
-•   Se deben utilizar tecnologías, plataformas o herramientas específicas disponibles
-•   El sistema debe adaptarse a las capacidades del entorno de desarrollo seleccionado
-•   Dependencia de recursos computacionales disponibles para la simulación
+•   - La validación del sistema se realizará en entornos simulados y no en condiciones reales
+•   - El desarrollo está sujeto a limitaciones de tiempo establecidas por el calendario académico
+•   - Existe un presupuesto limitado para herramientas y recursos tecnológicos
+•   - Se deben utilizar tecnologías, plataformas o herramientas específicas disponibles
+•   - El sistema debe adaptarse a las capacidades del entorno de desarrollo seleccionado
+•   - Dependencia de recursos computacionales disponibles para la simulación
 
 ## 2.5	Suposiciones y dependencias
 Suposiciones: 
