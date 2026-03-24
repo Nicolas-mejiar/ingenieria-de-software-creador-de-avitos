@@ -82,4 +82,5 @@ El sistema SmartTrash será una aplicación web que permitirá la gestión y cla
 - Sistema de puntos y recompensas: Cada clasificación correcta otorgará puntos al usuario, los cuales podrán ser acumulados y posteriormente canjeados por recompensas. 
 - Visualización del progreso: Los usuarios podrán consultar información como puntos acumulados, cantidad de residuos clasificados e impacto ambiental generado. 
 - Interfaz interactiva: La aplicación presentará una interfaz amigable que guiará al usuario durante el proceso de clasificación. 
+
 Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomentar la correcta clasificación de residuos y promover la conciencia ambiental dentro de la comunidad universitaria.
