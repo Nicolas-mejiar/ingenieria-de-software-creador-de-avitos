@@ -71,3 +71,15 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 El presente documento describe las especificaciones de requisitos de software del proyecto SmartTrash U, cuyo objetivo es definir de manera clara los requisitos funcionales y no funcionales necesarios para garantizar un desarrollo adecuado del sistema. Asimismo, se establece el alcance del proyecto, las características generales del producto, la descripción de los usuarios y las principales restricciones que influyen en su implementación.
 
 Además, se incluyen definiciones, referencias y otros aspectos relevantes que facilitan la comprensión del sistema durante las diferentes etapas de desarrollo. Este documento sirve como guía fundamental para asegurar que el software cumpla con las necesidades planteadas y permita una correcta ejecución del proyecto.
+# 2. Descripcion General
+## 2.1 Perspectiva del Producto
+SmartTrash se define como un producto independiente. La aplicación web integra de manera autónoma todos los componentes necesarios para su operación, incluyendo la gestión de usuarios, el motor de clasificación de residuos, el sistema de gamificación (puntos) y el módulo de simulación de hardware.
+Aunque el concepto se origina como parte de una iniciativa de gestión ambiental universitaria más amplia, el software no depende de sistemas o infraestructuras externas para funcionar (como una caneca inteligente física). La funcionalidad de identificación de residuos, que en una implementación física requeriría sensores externos, será incorporada como una simulación, permitiendo que la aplicación opere de forma totalmente autónoma y autocontenida.
+## 2.2 Funcionalidad del producto
+El sistema SmartTrash será una aplicación web que permitirá la gestión y clasificación de residuos sólidos en un entorno universitario, incorporando mecanismos de interacción y motivación para los usuarios. A continuación, se presentan sus funcionalidades principales:
+- Registro e inicio de sesión: Los usuarios podrán crear una cuenta e ingresar al sistema utilizando su correo institucional. 
+- Clasificación de residuos (simulada): El sistema permitirá al usuario seleccionar el tipo de residuo a depositar mediante un simulador que representará el funcionamiento de una caneca inteligente. 
+- Sistema de puntos y recompensas: Cada clasificación correcta otorgará puntos al usuario, los cuales podrán ser acumulados y posteriormente canjeados por recompensas. 
+- Visualización del progreso: Los usuarios podrán consultar información como puntos acumulados, cantidad de residuos clasificados e impacto ambiental generado. 
+- Interfaz interactiva: La aplicación presentará una interfaz amigable que guiará al usuario durante el proceso de clasificación. 
+Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomentar la correcta clasificación de residuos y promover la conciencia ambiental dentro de la comunidad universitaria.
