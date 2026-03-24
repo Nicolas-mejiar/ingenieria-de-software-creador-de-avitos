@@ -1,4 +1,4 @@
-# 1.Introduccion
+# 1. Introduccion
 En este documento se presentan las especificaciones de requisitos de software del proyecto SmartTrash U. El propósito es definir los requisitos funcionales y no funcionales para tener un correcto desarrollo. Tambien se encuentra el alcance del proyecto, características, descripción de usuarios, restricciones y demás aspectos relevantes. Ademas, se incluyen partes importantes como las definiciones y referencias, todo con el fin de facilitar la comprensión durante las etapas de desarrollo del proyecto.
 ## 1.1 Proposito
 El propósito de este documento es describir de manera clara y estructurada los requisitos del sistema SmartTrash U, el cual consiste en una aplicación web orientada a la gestión y clasificación inteligente de residuos sólidos en un entorno universitario. Este documento tiene como objetivo servir como guía para el desarrollo del sistema, facilitando la comprensión de sus funcionalidades, restricciones y características principales.
@@ -53,7 +53,7 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Información de contacto  | carlosd-valbuenao@unilibre.edu.co        |
 | Aprobación               | Pendiente                                |
 
-##1.4 Definiciones, acronimos y abreviaturas
+## 1.4 Definiciones, acronimos y abreviaturas
 - SRS (Software Requirements Specification): Documentos en el que se describen los requisitos funcionales y no funcionales. 
 - SmartTrash U: Sistema inteligente de reciclaje que emplea una plataforma web para la gestión y clasificación de datos y puntos de los usuarios.
 - QR: Código de respuesta rápida que permite acceder a información mediante un escaneo, en este caso permite redirigir a la página web del proyecto.
