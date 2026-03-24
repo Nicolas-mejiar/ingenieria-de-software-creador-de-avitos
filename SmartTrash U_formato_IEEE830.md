@@ -17,3 +17,11 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Información de contacto  | andres-gonzalezf@unilibre.edu.co                                            |
 | Aprobación               | Si                                                                          |
 
+| Campo                     | Información                              |
+|--------------------------|------------------------------------------|
+| Nombre                   | Santiago Peña Reyes                      |
+| Rol                      | Impulsor                                 |
+| Categoría profesional    | Estudiante de Ingeniería de sistemas     |
+| Responsabilidades        | Desarrollo de página web                 |
+| Información de contacto  | santiago-penar@unilibre.edu.co           |
+| Aprobación               | Pendiente                                |
