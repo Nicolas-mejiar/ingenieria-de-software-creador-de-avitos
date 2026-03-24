@@ -59,4 +59,11 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 - QR: Código de respuesta rápida que permite acceder a información mediante un escaneo, en este caso permite redirigir a la página web del proyecto.
 - Sensor: Dispositivo que permite detectar características físicas de los objetos, usado para hacer la clasificación.  
 - Sistema de puntuación: Mecanismo que asigna puntos a los usuarios por el correcto manejo de residuos. 
-
+## 1.5 Referencias 
+| Referencia | Título                                      | Ruta                                      | Fecha | Autor                         |
+|------------|----------------------------------------------|--------------------------------------------|-------|-------------------------------|
+| Ref. 01    | IEEE Std 830-1998                            | https://ieeexplore.ieee.org                | 1998  | IEEE                          |
+| Ref. 02    | Documentación del proyecto SmartTrash U      | Documento interno                          | 2026  | Equipo de SmartTrash U        |
+| Ref. 03    | Normativa sobre gestión de residuos          | Fuente institucional / documento oficial   | 2025  | Ministerio de ambiente        |
+| Ref. 04    | Manuales de sensores y componentes           | Documentación técnica de fabricantes       | 2025  | Fabricantes de hardware       |
+| Ref. 05    | Documentación del entorno de desarrollo      | Sitio oficial del lenguaje/plataforma      | 2025  | Proveedores de software       |
