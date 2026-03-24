@@ -84,13 +84,13 @@ El sistema SmartTrash será una aplicación web que permitirá la gestión y cla
 - Interfaz interactiva: La aplicación presentará una interfaz amigable que guiará al usuario durante el proceso de clasificación. 
 
 Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomentar la correcta clasificación de residuos y promover la conciencia ambiental dentro de la comunidad universitaria.
-## 2.3 Caracteristicas de los ususarios### 👤 Usuario general
-
+## 2.3 Caracteristicas de los ususarios
 | Campo         | Descripción                                                                 |
 |--------------|------------------------------------------------------------------------------|
-| Tipo de usuario | Usuario general (persona que deposita residuos)                           |
-| Formación     | No requiere formación específica                                           |
+| Tipo de usuario |	Administrador del sistema		                          |
+| Formación     | Formacion tecnica o universitaria enfocada en tecnologia                                          |
 | Habilidades   | Uso básico de tecnología para escaneo de código QR                         |
 | Actividades   | Escaneo de QR, depositar residuos, interacción con la página web           |
 
 ---
+
