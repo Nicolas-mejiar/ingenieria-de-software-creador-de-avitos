@@ -67,3 +67,7 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Ref. 03    | Normativa sobre gestión de residuos          | Fuente institucional / documento oficial   | 2025  | Ministerio de ambiente        |
 | Ref. 04    | Manuales de sensores y componentes           | Documentación técnica de fabricantes       | 2025  | Fabricantes de hardware       |
 | Ref. 05    | Documentación del entorno de desarrollo      | Sitio oficial del lenguaje/plataforma      | 2025  | Proveedores de software       |
+## 1.6 Resumen
+El presente documento describe las especificaciones de requisitos de software del proyecto SmartTrash U, cuyo objetivo es definir de manera clara los requisitos funcionales y no funcionales necesarios para garantizar un desarrollo adecuado del sistema. Asimismo, se establece el alcance del proyecto, las características generales del producto, la descripción de los usuarios y las principales restricciones que influyen en su implementación.
+
+Además, se incluyen definiciones, referencias y otros aspectos relevantes que facilitan la comprensión del sistema durante las diferentes etapas de desarrollo. Este documento sirve como guía fundamental para asegurar que el software cumpla con las necesidades planteadas y permita una correcta ejecución del proyecto.
