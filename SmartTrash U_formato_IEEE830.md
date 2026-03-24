@@ -115,11 +115,11 @@ El sistema será desarrollado únicamente como un prototipo virtual, por lo tant
 - El sistema debe adaptarse a las capacidades del entorno de desarrollo seleccionado
 - Dependencia de recursos computacionales disponibles para la simulación
 ## 2.5	Suposiciones y dependencias
-Suposiciones: 
+### Suposiciones: 
 - Se asume que los usuarios utilizarán correctamente la aplicación web.
 - Se asume que los usuarios cuentan con acceso a internet para interactuar con el sistema.
 - Se asume la disponibilidad del entorno de desarrollo necesario para la implementación del sistema.
-Dependencias: 
+### Dependencias: 
 - El funcionamiento del sistema depende del correcto desempeño del entorno de desarrollo utilizado.
 - El sistema depende de la disponibilidad de conexión a internet para su uso.
 - El funcionamiento del sistema está sujeto a la compatibilidad con navegadores web.
