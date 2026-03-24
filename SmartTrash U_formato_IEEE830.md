@@ -16,3 +16,4 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Responsabilidades        | Coordinación del equipo y seguimiento, apoyo en el diseño del sistema y asegurar la calidad del trabajo. |
 | Información de contacto  | andres-gonzalezf@unilibre.edu.co                                            |
 | Aprobación               | Si                                                                          |
+
