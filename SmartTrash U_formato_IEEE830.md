@@ -22,7 +22,7 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Nombre                   | Santiago Peña Reyes                      |
 | Rol                      | Impulsor                                 |
 | Categoría profesional    | Estudiante de Ingeniería de sistemas     |
-| Responsabilidades        | Desarrollo de página web                 |
+| Responsabilidades        | Apoyo en el desarrollo de página web y mentenimiento de la calidad del trabajo|
 | Información de contacto  | santiago-penar@unilibre.edu.co           |
 | Aprobación               | Pendiente                                |
 
