@@ -52,3 +52,11 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Responsabilidades        | Docu y Desarrollo de Simulador de ca     |
 | Información de contacto  | carlosd-valbuenao@unilibre.edu.co        |
 | Aprobación               | Pendiente                                |
+
+##1.4 Definiciones, acronimos y abreviaturas
+- SRS (Software Requirements Specification): Documentos en el que se describen los requisitos funcionales y no funcionales. 
+- SmartTrash U: Sistema inteligente de reciclaje que emplea una plataforma web para la gestión y clasificación de datos y puntos de los usuarios.
+- QR: Código de respuesta rápida que permite acceder a información mediante un escaneo, en este caso permite redirigir a la página web del proyecto.
+- Sensor: Dispositivo que permite detectar características físicas de los objetos, usado para hacer la clasificación.  
+- Sistema de puntuación: Mecanismo que asigna puntos a los usuarios por el correcto manejo de residuos. 
+
