@@ -84,3 +84,11 @@ El sistema SmartTrash será una aplicación web que permitirá la gestión y cla
 - Interfaz interactiva: La aplicación presentará una interfaz amigable que guiará al usuario durante el proceso de clasificación. 
 
 Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomentar la correcta clasificación de residuos y promover la conciencia ambiental dentro de la comunidad universitaria.
+## 2.3 Caracteristicas de los ususarios
+|--------------------------|-----------------------------------------------------------------------------|
+| Tipo de usuario                   | Administrador del sistema                                             |
+| Formacion                      | Formacion tecnica o universitaria enfocada en tecnologia                                                  |
+| Habilidades    | Manejo de pagina web, gestion de datos y administracion de usuarios                                        |
+| Actividades        | Supervision del sistema, gestion de usuarios y mantenimiento del sistema |
+| Información de contacto  | andres-gonzalezf@unilibre.edu.co                                            |
+| Aprobación               | Si                                                                          |
