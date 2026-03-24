@@ -89,8 +89,25 @@ Estas funcionalidades permitirán que el sistema cumpla con su objetivo de fomen
 |--------------|------------------------------------------------------------------------------|
 | Tipo de usuario |	Administrador del sistema		                          |
 | Formación     | Formacion tecnica o universitaria enfocada en tecnologia                                          |
+| Habilidades   | Manejo de pagina web, gestion de datos, administracion de usuarios                     |
+| Actividades   | Supervision del sistema, gestion de usuarios. mantenimiento del proyecto           |
+
+---
+| Campo         | Descripción                                                                 |
+|--------------|------------------------------------------------------------------------------|
+| Tipo de usuario |	Usuario general (persona que deposita residuos)                          |
+| Formación     | No requiere formacion especifica                                         |
 | Habilidades   | Uso básico de tecnología para escaneo de código QR                         |
 | Actividades   | Escaneo de QR, depositar residuos, interacción con la página web           |
 
 ---
+| Campo         | Descripción                                                                 |
+|--------------|------------------------------------------------------------------------------|
+| Tipo de usuario |	Personal de servicios de aseo                       |
+| Formación     | No requiere formacion especifica                                          |
+| Habilidades   | Conocimientos basicos del funcionamiento del sistema                        |
+| Actividades   | INteraccion conla pagina web, verificacion del estado de los contenedores, apoyo al funcionamiento del sistema        |
+
+---
+
 
