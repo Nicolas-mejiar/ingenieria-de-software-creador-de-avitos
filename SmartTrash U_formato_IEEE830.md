@@ -42,4 +42,13 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Categoría profesional    | Estudiante de Ingeniería de sistemas     |
 | Responsabilidades        | Desarrollo de Simulador de caneca            |
 | Información de contacto  | nicolasa-mejiar@unilibre.edu.co          |
-| Aprobación               | Si                                       |
+| Aprobación               | Pendiente                                       |
+
+| Campo                     | Información                             |
+|--------------------------|------------------------------------------|
+| Nombre                   | Carlos David Valbuena Ortiz              |
+| Rol                      | Impulsor/Finalizador                     |
+| Categoría profesional    | Estudiante de Ingeniería de sistemas     |
+| Responsabilidades        | Docu y Desarrollo de Simulador de ca     |
+| Información de contacto  | carlosd-valbuenao@unilibre.edu.co        |
+| Aprobación               | Pendiente                                |
