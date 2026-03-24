@@ -34,3 +34,12 @@ Este alcance cumple con el objetivo general del sistema como una solución tecno
 | Responsabilidades        | Planificar el proyecto, analizar requerimientos, proponer soluciones claras y estructuradas |
 | Información de contacto  | eileeng-espitia@unilibre.edu.co           |
 | Aprobación               | Pendiente                                 |
+
+| Campo                     | Información                             |
+|--------------------------|------------------------------------------|
+| Nombre                   | Nicolas Alexander Mejia Rojas            |
+| Rol                      | Desarrollador                            |
+| Categoría profesional    | Estudiante de Ingeniería de sistemas     |
+| Responsabilidades        | Desarrollo de Simulador de ca            |
+| Información de contacto  | nicolasa-mejiar@unilibre.edu.co          |
+| Aprobación               | Si                                       |
