@@ -129,6 +129,74 @@ El sistema será desarrollado únicamente como un prototipo virtual, por lo tant
 Para las futuras versiones y actualizaciones del proyecto SmartTrash U, se planea tener en cuenta la opinión de los usuarios para hacer las mejorar pertinentes al sistema.
 Principalmente, una evolución que se contempla es tener la caneca física, ya que en un inicio es todo simulado.
 A partir de esto, hacer mejoras en el funcionamiento, como desarrollar una aplicación móvil para facilitar el acceso de usuarios, mejora en la clasificación de residuos por medio de inteligencia artificial entrenada y sensores de mayor precisión, de igual forma mejorar el sistema de puntuación al desechar residuos. 
+## 3.3 Requisitos no funcionales
+3.3.1 Requisitos de rendimiento
 
+El sistema SmartTrash U deberá cumplir con los siguientes requisitos de rendimiento:
+
+El sistema debe soportar al menos 100 usuarios concurrentes sin degradación significativa del servicio.
+El tiempo de respuesta de las operaciones principales (inicio de sesión, clasificación de residuos, consulta de puntos) deberá ser:
+≤ 2 segundos en el 95% de las solicitudes.
+El sistema deberá procesar al menos 50 transacciones por segundo en el módulo de clasificación simulada.
+El tiempo de carga inicial de la aplicación web no deberá superar los 3 segundos en condiciones normales de red.
+El sistema deberá mantener un uso de CPU inferior al 70% en el servidor bajo carga promedio.
+Las consultas a la base de datos deberán responder en un tiempo máximo de 1 segundo en el 90% de los casos.
+3.3.2 Seguridad
+
+El sistema SmartTrash U deberá garantizar la protección de la información y el acceso controlado mediante los siguientes mecanismos:
+
+El sistema deberá implementar autenticación de usuarios mediante correo y contraseña cifrada.
+Las contraseñas deberán almacenarse utilizando algoritmos de hash seguros (ej. bcrypt o SHA-256 con salt).
+El sistema deberá utilizar el protocolo HTTPS para asegurar la comunicación de datos.
+Se deberá implementar control de acceso basado en roles (Administrador, Usuario general, Personal de aseo).
+El sistema deberá registrar un log de actividad, incluyendo:
+Inicio y cierre de sesión
+Clasificación de residuos
+Acciones administrativas
+El sistema deberá detectar e invalidar sesiones tras 15 minutos de inactividad.
+Se deberán realizar validaciones de entrada para prevenir ataques como inyección SQL y XSS.
+La información crítica (puntos, datos de usuarios) deberá contar con mecanismos de integridad y respaldo automático diario.
+3.3.3 Fiabilidad
+
+El sistema deberá garantizar un funcionamiento estable y confiable:
+
+El sistema deberá tener una tasa de fallos menor a 2 incidentes críticos por mes.
+El tiempo medio entre fallos (MTBF) deberá ser de al menos 200 horas de operación.
+En caso de fallo, el sistema deberá recuperarse en un tiempo máximo de 5 minutos.
+El sistema deberá garantizar que el 99% de las transacciones se completen correctamente.
+Se deberán implementar mecanismos de manejo de errores para evitar pérdida de datos.
+3.3.4 Disponibilidad
+
+El sistema SmartTrash U deberá estar disponible para los usuarios bajo las siguientes condiciones:
+
+El sistema deberá tener una disponibilidad mínima del 95% mensual.
+El sistema deberá estar disponible 24/7, excepto en ventanas de mantenimiento programado.
+Las tareas de mantenimiento deberán realizarse en horarios de baja demanda y no exceder 4 horas mensuales.
+En caso de caída del sistema, el tiempo máximo de inactividad no deberá superar 2 horas por incidente.
+3.3.5 Mantenibilidad
+
+El sistema deberá ser fácil de mantener, actualizar y corregir:
+
+El código deberá estar documentado en al menos un 80% de sus módulos.
+El mantenimiento será realizado por el equipo de desarrollo del proyecto.
+Se deberán realizar:
+Revisiones semanales del sistema
+Actualizaciones mensuales de mejoras o correcciones
+El sistema deberá permitir la corrección de errores en un tiempo máximo de 48 horas.
+Se deberán generar reportes de uso (logs y estadísticas) de forma semanal y mensual.
+El sistema deberá estar estructurado en módulos independientes para facilitar cambios sin afectar todo el sistema.
+3.3.6 Portabilidad
+
+El sistema SmartTrash U deberá poder adaptarse a diferentes entornos:
+
+El sistema deberá ser accesible desde los principales navegadores web:
+Google Chrome
+Mozilla Firefox
+Microsoft Edge
+La aplicación deberá ser compatible con dispositivos de escritorio y móviles (responsive design).
+Al menos el 90% del código deberá ser independiente del sistema operativo.
+El sistema deberá estar desarrollado con tecnologías web estándar (HTML, CSS, JavaScript), facilitando su despliegue en distintos servidores.
+El sistema deberá poder ser desplegado en diferentes plataformas (ej. servidores locales o en la nube).
+La migración del sistema a otro entorno deberá poder realizarse en un tiempo máximo de 8 horas.
 
 
