@@ -132,7 +132,7 @@ A partir de esto, hacer mejoras en el funcionamiento, como desarrollar una aplic
 ## 3.3 Requisitos no funcionales
 3.3.1 Requisitos de rendimiento
 
-El sistema SmartTrash U deberá cumplir con los siguientes requisitos de rendimiento:
+-El sistema SmartTrash U deberá cumplir con los siguientes requisitos de rendimiento:
 
 El sistema debe soportar al menos 100 usuarios concurrentes sin degradación significativa del servicio.
 El tiempo de respuesta de las operaciones principales (inicio de sesión, clasificación de residuos, consulta de puntos) deberá ser:
@@ -143,7 +143,7 @@ El sistema deberá mantener un uso de CPU inferior al 70% en el servidor bajo ca
 Las consultas a la base de datos deberán responder en un tiempo máximo de 1 segundo en el 90% de los casos.
 3.3.2 Seguridad
 
-El sistema SmartTrash U deberá garantizar la protección de la información y el acceso controlado mediante los siguientes mecanismos:
+-El sistema SmartTrash U deberá garantizar la protección de la información y el acceso controlado mediante los siguientes mecanismos:
 
 El sistema deberá implementar autenticación de usuarios mediante correo y contraseña cifrada.
 Las contraseñas deberán almacenarse utilizando algoritmos de hash seguros (ej. bcrypt o SHA-256 con salt).
@@ -158,7 +158,7 @@ Se deberán realizar validaciones de entrada para prevenir ataques como inyecci�
 La información crítica (puntos, datos de usuarios) deberá contar con mecanismos de integridad y respaldo automático diario.
 3.3.3 Fiabilidad
 
-El sistema deberá garantizar un funcionamiento estable y confiable:
+-El sistema deberá garantizar un funcionamiento estable y confiable:
 
 El sistema deberá tener una tasa de fallos menor a 2 incidentes críticos por mes.
 El tiempo medio entre fallos (MTBF) deberá ser de al menos 200 horas de operación.
@@ -167,7 +167,7 @@ El sistema deberá garantizar que el 99% de las transacciones se completen corre
 Se deberán implementar mecanismos de manejo de errores para evitar pérdida de datos.
 3.3.4 Disponibilidad
 
-El sistema SmartTrash U deberá estar disponible para los usuarios bajo las siguientes condiciones:
+-El sistema SmartTrash U deberá estar disponible para los usuarios bajo las siguientes condiciones:
 
 El sistema deberá tener una disponibilidad mínima del 95% mensual.
 El sistema deberá estar disponible 24/7, excepto en ventanas de mantenimiento programado.
@@ -175,7 +175,7 @@ Las tareas de mantenimiento deberán realizarse en horarios de baja demanda y no
 En caso de caída del sistema, el tiempo máximo de inactividad no deberá superar 2 horas por incidente.
 3.3.5 Mantenibilidad
 
-El sistema deberá ser fácil de mantener, actualizar y corregir:
+-El sistema deberá ser fácil de mantener, actualizar y corregir:
 
 El código deberá estar documentado en al menos un 80% de sus módulos.
 El mantenimiento será realizado por el equipo de desarrollo del proyecto.
@@ -187,7 +187,7 @@ Se deberán generar reportes de uso (logs y estadísticas) de forma semanal y me
 El sistema deberá estar estructurado en módulos independientes para facilitar cambios sin afectar todo el sistema.
 3.3.6 Portabilidad
 
-El sistema SmartTrash U deberá poder adaptarse a diferentes entornos:
+-El sistema SmartTrash U deberá poder adaptarse a diferentes entornos:
 
 El sistema deberá ser accesible desde los principales navegadores web:
 Google Chrome
