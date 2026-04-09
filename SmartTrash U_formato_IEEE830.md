@@ -130,95 +130,93 @@ Para las futuras versiones y actualizaciones del proyecto SmartTrash U, se plane
 Principalmente, una evolución que se contempla es tener la caneca física, ya que en un inicio es todo simulado.
 A partir de esto, hacer mejoras en el funcionamiento, como desarrollar una aplicación móvil para facilitar el acceso de usuarios, mejora en la clasificación de residuos por medio de inteligencia artificial entrenada y sensores de mayor precisión, de igual forma mejorar el sistema de puntuación al desechar residuos. 
 # 3.2 Requisitos funcionales
-
 El sistema SmartTrash U deberá implementar un conjunto de funcionalidades que permitan la interacción entre los usuarios y la plataforma, facilitando la gestión y clasificación de residuos sólidos mediante un entorno web. Estas funcionalidades contemplan la validación de entradas, procesamiento de datos, manejo de errores, generación de salidas y almacenamiento de información en base de datos.
-
-3.2.1 Registro de usuario
-El sistema deberá permitir a los usuarios registrarse mediante el ingreso de nombre, correo electrónico institucional y contraseña.
+## 3.2.1 Registro de usuario
+El sistema deberá permitir a los usuarios registrarse mediante el correo electrónico institucional y contraseña.
 El sistema deberá validar:
-Formato correcto del correo electrónico
-Que los campos no estén vacíos
-Que la contraseña tenga mínimo 6 caracteres
-El sistema deberá verificar que el correo no esté previamente registrado.
+- Formato correcto del correo electrónico.
+- Que los campos no estén vacíos.
+- Que la contraseña tenga mínimo 6 caracteres.
+- El sistema deberá verificar que el correo no esté previamente registrado.
 Secuencia:
-El usuario ingresa los datos
-El sistema valida la información
-El sistema almacena los datos en la base de datos
-El sistema confirma el registro
-En caso de error (correo existente o datos inválidos), el sistema mostrará un mensaje descriptivo.
-Salida: mensaje de “Registro exitoso” o mensaje de error.
-Datos almacenados: ID usuario, nombre, correo, contraseña cifrada, rol.
-3.2.2 Inicio de sesión
-El sistema deberá permitir a los usuarios autenticarse mediante correo y contraseña.
-El sistema deberá validar que los campos no estén vacíos.
-El sistema deberá verificar las credenciales contra la base de datos.
+- El usuario ingresa los datos.
+- El sistema valida la información.
+- El sistema almacena los datos en la base de datos.
+- El sistema confirma el registro.
+- En caso de error (correo existente o datos inválidos), el sistema mostrará un mensaje descriptivo.
+- Salida: mensaje de “Registro exitoso” o mensaje de error.
+- Datos almacenados: Correo, contraseña cifrada, rol.
+## 3.2.2 Inicio de sesión
+- El sistema deberá permitir a los usuarios autenticarse mediante correo y contraseña.
+- El sistema deberá validar que los campos no estén vacíos.
+- El sistema deberá verificar las credenciales contra la base de datos.
 Secuencia:
-El usuario ingresa sus credenciales
-El sistema valida los datos
-El sistema compara con la base de datos
-Se concede o deniega el acceso
-En caso de error, el sistema mostrará mensajes como “credenciales incorrectas”.
-Salida: acceso al sistema o mensaje de error.
-Datos consultados: correo y contraseña.
-3.2.3 Clasificación de residuos (simulada)
-El sistema deberá permitir al usuario seleccionar el tipo de residuo mediante un simulador.
-El sistema deberá validar que el usuario haya seleccionado una opción válida.
+- El usuario ingresa sus credenciales
+- El sistema valida los datos
+- El sistema compara con la base de datos
+- Se concede o deniega el acceso
+- En caso de error, el sistema mostrará mensajes como “credenciales incorrectas”.
+- Salida: acceso al sistema o mensaje de error.
+- Datos consultados: correo y contraseña.
+## 3.2.3 Clasificación de residuos (simulada)
+- El sistema deberá permitir al usuario seleccionar el tipo de residuo mediante un simulador.
+- El sistema deberá validar que el usuario haya seleccionado una opción válida.
 Secuencia:
-El usuario accede al simulador
-Selecciona un tipo de residuo
-El sistema evalúa la selección
-El sistema determina si la clasificación es correcta
-En caso de no seleccionar ninguna opción, se mostrará un mensaje de advertencia.
-Salida: resultado de clasificación (correcta o incorrecta).
-Datos almacenados: tipo de residuo, resultado, fecha, usuario.
-3.2.4 Sistema de puntos y recompensas
+- El usuario accede al simulador
+- Selecciona un tipo de residuo
+- El sistema evalúa la selección
+- El sistema determina si la clasificación es correcta
+- En caso de no seleccionar ninguna opción, se mostrará un mensaje de advertencia.
+- Salida: resultado de clasificación (correcta o incorrecta).
+- Datos almacenados: tipo de residuo, resultado, fecha, usuario.
+## 3.2.4 Sistema de puntos y recompensas
 El sistema deberá asignar puntos al usuario por cada clasificación correcta.
 Parámetros:
-Clasificación correcta: suma de puntos
-Clasificación incorrecta: no suma puntos
+- Clasificación correcta: suma de puntos
+- Clasificación incorrecta: no suma puntos
 Secuencia:
-El sistema recibe el resultado de la clasificación
-Calcula los puntos correspondientes
-Actualiza el puntaje del usuario
-El sistema deberá actualizar automáticamente el total de puntos acumulados.
-Salida: visualización de puntos obtenidos.
-Datos almacenados: puntos acumulados, historial de puntos.
-3.2.5 Visualización del progreso
+- El sistema recibe el resultado de la clasificación
+- Calcula los puntos correspondientes
+- Actualiza el puntaje del usuario
+- El sistema deberá actualizar automáticamente el total de puntos acumulados.
+- Salida: visualización de puntos obtenidos.
+- Datos almacenados: puntos acumulados, historial de puntos.
+## 3.2.5 Visualización del progreso
 El sistema deberá permitir al usuario consultar su progreso.
 Información mostrada:
-Puntos acumulados
-Cantidad de residuos clasificados
-Impacto ambiental estimado
+- Puntos acumulados
+- Cantidad de residuos clasificados
+- Impacto ambiental estimado
 Secuencia:
-El usuario accede a su perfil
-El sistema consulta la base de datos
-El sistema muestra la información
-En caso de error de consulta, se mostrará un mensaje de fallo.
-Salida: panel con estadísticas del usuario.
-Datos consultados: historial de clasificaciones y puntos.
-3.2.6 Gestión de usuarios (Administrador)
+- El usuario accede a su perfil
+- El sistema consulta la base de datos
+- El sistema muestra la información
+- En caso de error de consulta, se mostrará un mensaje de fallo.
+- Salida: panel con estadísticas del usuario.
+- Datos consultados: historial de clasificaciones y puntos.
+## 3.2.6 Gestión de usuarios (Administrador)
 El sistema deberá permitir al administrador gestionar usuarios registrados.
 Funcionalidades:
-Visualizar lista de usuarios
-Editar información
-Eliminar usuarios
+- Visualizar lista de usuarios
+- Editar información
+- Eliminar usuarios
 Secuencia:
-El administrador accede al módulo
-El sistema muestra los usuarios
-Se ejecuta la acción seleccionada
-El sistema deberá validar permisos antes de permitir el acceso.
-Salida: confirmación de acciones realizadas.
-Datos gestionados: información completa de usuarios.
-3.2.7 Simulación de sensores
-El sistema deberá simular el comportamiento de sensores para la clasificación de residuos.
-El sistema deberá generar respuestas basadas en reglas predefinidas.
+- El administrador accede al módulo
+- El sistema muestra los usuarios
+- Se ejecuta la acción seleccionada
+- El sistema deberá validar permisos antes de permitir el acceso.
+- Salida: confirmación de acciones realizadas.
+- Datos gestionados: información completa de usuarios.
+## 3.2.7 Simulación de sensores
+- El sistema deberá simular el comportamiento de sensores para la clasificación de residuos (sensor de humedad, sensor ultrasonico, sensor inductivo, sensor de peso).
+- El sistema deberá generar respuestas basadas en reglas predefinidas.
 Secuencia:
-El usuario selecciona un residuo
-El sistema simula la lectura del sensor
-Se determina el tipo de residuo
-En caso de error, el sistema deberá permitir reintentar la operación.
-Salida: resultado de la simulación.
-Datos almacenados: registros de simulación.
+- El usuario selecciona un residuo
+- El sistema simula la lectura del sensor
+- Se determina el tipo de residuo
+- En caso de error, el sistema deberá permitir reintentar la operación.
+- Salida: resultado de la simulación.
+- Datos almacenados: registros de simulación.
 # 3.3 Requisitos no funcionales
 ## 3.3.1 Requisitos de rendimiento
 El sistema SmartTrash U deberá cumplir con los siguientes requisitos de rendimiento:
